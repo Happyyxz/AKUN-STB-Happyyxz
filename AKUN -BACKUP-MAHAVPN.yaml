@@ -1,0 +1,218 @@
+proxies:
+
+#=============RELABS-BACKUP-SITE================
+
+- name: RELABS VIDIO 14 SITE
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: mahavpn.site
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.site
+  udp: true
+
+- name: RELABS VIDIO 240 SITE
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: mahavpn.site
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.site
+  udp: true
+
+- name: RELABS VIDIO QUIZ SITE
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: mahavpn.site
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.site
+  udp: true
+
+- name:  RELABS IMG EMAIL 3 VIDIO SITE
+  server: img.email3.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: mahavpn.site
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.site
+  udp: true
+
+- name:  RELABS VIDIO 120 SITE
+  server: 104.16.14.120
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: mahavpn.site
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.site
+  udp: true
+
+#=============RELABS-BACKUP-XYZ================
+
+- name: RELABS VIDIO 14 XYZ
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahavpn.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.xyz
+  udp: true
+
+- name: RELABS VIDIO 240 XYZ
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahavpn.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.xyz
+  udp: true
+
+- name: RELABS VIDIO QUIZ ZYX
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahavpn.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.xyz
+  udp: true
+
+- name:  RELABS IMG EMAIL 3 VIDIO XYZ
+  server: img.email3.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahavpn.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.xyz
+  udp: true
+
+- name:  RELABS VIDIO 120 XYZ
+  server: 104.16.14.120
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahavpn.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahavpn.xyz
+  udp: true
+
+#=============RELABS-BACKUP-BIZID================
+
+
+- name: RELABS VIDIO 14 BIZID
+  server: 172.67.5.14
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahanet.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahanet.biz.id
+  udp: true
+
+- name: RELABS VIDIO 240 BIZID
+  server: 104.22.5.240
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahanet.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahanet.biz.id
+  udp: true
+
+- name: RELABS VIDIO QUIZ ZYX
+  server: quiz.int.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahanet.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahanet.biz.id
+  udp: true
+
+- name:  RELABS IMG EMAIL 3 VIDIO BIZID
+  server: img.email3.vidio.com
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahanet.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahanet.biz.id
+  udp: true
+
+- name:  RELABS VIDIO 120 BIZID
+  server: 104.16.14.120
+  port: 443
+  type: trojan
+  password: 7c2db602-c2e9-11ef-85e9-00163edc15e0
+  skip-cert-verify: true
+  sni: id-iv.mahanet.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-iv.mahanet.biz.id
+  udp: true
